@@ -1,3 +1,11 @@
+/*.page-header {
+  max-height: 2000px !important;
+  height: 1500px !important;
+}*/
+.fullScreen {
+  min-height: 969px !important;
+  background-color: #0B0B47;
+}
 .tim-row {
   margin-bottom: 20px;
 }

@@ -1,21 +1,18 @@
 <template>
-  <div>
-    <div class="page-header clear-filter">
+  <div class ="fullScreen">
       <!-- filter-color="orange" -->
       <!-- nice fade gradient to set up in above div if needed -->
-      <parallax
-        class="page-header-image"
-        style="background-color: #0B0B47"
-      >
-      </parallax>
+      
       <div class="container">
-        <div class="content-center brand">
-          <img class="s-logo" src="img/fullLogo.png" alt="" />  
+        <div class="content-center">
+           <div class="row justify-content-md-center">
+              <img style="margin-top: 2%" class="s-logo" src="img/mainLogo2.png" alt="" />  
+           </div>
           <div class="container text-center">
             <div class="row justify-content-md-center">
               <div class="col-md-12 col-lg-8">
-                <h4 style="color: #74FED0"class="title">Our Site is Currently Under Construction!</h4>
-                <h5 style="color: white" class="description">
+                <h4 style="color: #74FED0; margin-top: 2%"class="title">Our Site is Currently Under Construction!</h4>
+                <h5 style="color: white; margin-bottom: 4%" class="description">
                  We code, we design, we love what we do. We are a collective group of creatives that come together and create lasting brands, lasting relationships and above all, happy clients.
                 </h5>
               </div>
@@ -28,36 +25,47 @@
           <div class="col-sm-4">
             <img
               v-lazy="'img/randy.png'"
-              alt="Raised Image"
+              alt="Randy Img"
               class="rounded img-raised"
+              style="border-radius: 30px !important;"
             />
-            <p style="margin-top: 5%; color: #74FED0" class="category">Randy Renninger</p>
-            <p style="margin-top: -5%; color: #74FED0">Graphic Designer</p>
-             <RandyModal></RandyModal>
-          </div><div class="col-sm-4">
+            <p style="margin-top: 5%; color: #74FED0; text-align: center;" class="category justify-content-md-center">Randy Renninger</p>
+            <p style="margin-top: -5%; color: #74FED0; text-align: center;">Graphic Designer</p>
+             <RandyModal style="text-align: center; margin-top: -2%;"></RandyModal>
+          </div>
+          <div class="col-sm-4">
             <img
               v-lazy="'img/steve.png'"
-              alt="Raised Image"
+              alt="Steve Img"
               class="rounded img-raised"
+              style="border-radius: 30px !important;"
             />
-            <p style="margin-top: 5%; color: #74FED0" class="category">Steve Hubis</p>
-            <p style="margin-top: -5%; color: #74FED0">Sales and marketing</p>
-            <SteveModal></SteveModal>
-          </div><div class="col-sm-4">
+            <p style="margin-top: 5%; color: #74FED0; text-align: center;" class="category">Steve Hubis</p>
+            <p style="margin-top: -5%; color: #74FED0; text-align: center;">Sales and marketing</p>
+            <SteveModal style="text-align: center; margin-top: -2%;"></SteveModal>
+          </div>
+          <div class="col-sm-4">
             <img
               v-lazy="'img/craig.png'"
-              alt="Raised Image"
+              alt="Craig Img"
               class="rounded img-raised"
+              style="border-radius: 30px !important;"
             />
-            <p style="margin-top: 5%; color: #74FED0" class="category">Craig Burch</p>
-            <p style="margin-top: -5%; color: #74FED0">Web Developer</p>
-            <CraigModal></CraigModal>
+            <p style="margin-top: 5%; color: #74FED0; text-align: center;" class="category">Craig Burch</p>
+            <p style="margin-top: -5%; color: #74FED0; text-align: center;">Web Developer</p>
+            <CraigModal style="text-align: center; margin-top: -2%;"></CraigModal>
           </div>
         </div>
       </div>
      </div>
+     <div>
+         <img style="margin-top: -60%;"
+              v-lazy="'img/pattern2.png'"
+              alt="pattern"
+              class="hideMobile"
+            />
+     </div>
    </div>
- </div>
     <!-- <div class="main">
       <div class="section section-images">
         <div class="container">
