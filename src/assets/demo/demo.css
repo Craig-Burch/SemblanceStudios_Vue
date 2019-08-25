@@ -2,9 +2,52 @@
   max-height: 2000px !important;
   height: 1500px !important;
 }*/
+/*edit all contact modals*/
+.roundedModal {
+  border-radius: 20px;
+  background-color: #74FED0;
+}
+.companyColorDark {
+  color: #0B0B47;
+}
+.buttonClose {
+  background-color: #0B0B47;
+}
+.buttonClose:hover {
+  background-color: #74FED0;
+  color: black;
+}
 .fullScreen {
   min-height: 969px !important;
   background-color: #0B0B47;
+}
+.companyGradient {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  /*box-shadow: 0 0 20px #eee;*/
+  border-radius: 10px;
+  color:black;
+}
+.companyGradient:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #0B0B47;
+}
+.gradientBtn {
+  background-image: linear-gradient(to right, #74FED0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+@media only screen and (max-width: 990px) {
+.hideMobile {
+   display: none;
+  } 
+}
+@media only screen and (max-width: 600px) {
+.marginMobile {
+   margin-bottom: 15px !important;
+  }
 }
 .tim-row {
   margin-bottom: 20px;
@@ -467,6 +510,23 @@
   margin-bottom: 25px;
   /*remove once you add nav-bar*/
   margin-top: 100px
+}
+@media only screen and (max-width: 600px) {
+ .s-logo {
+   max-width: 400px !important;
+   margin-left: auto;
+   margin-right: auto;
+  }
+}
+@media only screen and (max-width: 400px) {
+ .s-logo {
+   max-width: 325px !important;
+  }
+}
+@media only screen and (max-width: 325px) {
+ .s-logo {
+   max-width: 300px !important;
+  }
 }
 
 .invisios-logo {

@@ -17,7 +17,7 @@
         class="modal-dialog"
         :class="[{ 'modal-notice': type === 'notice' }, modalClasses]"
       >
-        <div class="modal-content">
+        <div class="modal-content roundedModal">
           <slot name="base-content">
             <div class="modal-header" :class="headerClasses">
               <slot name="close-button">

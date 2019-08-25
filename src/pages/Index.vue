@@ -6,11 +6,11 @@
       <div class="container">
         <div class="content-center">
            <div class="row justify-content-md-center">
-              <img style="margin-top: 2%" class="s-logo" src="img/mainLogo2.png" alt="" />  
+              <img style="margin-top: 2%" class="s-logo" src="img/mainLogo2.png" alt="logo" />  
            </div>
           <div class="container text-center">
             <div class="row justify-content-md-center">
-              <div class="col-md-12 col-lg-8">
+              <div class="col-md-12 col-lg-8 marginMobile">
                 <h4 style="color: #74FED0; margin-top: 2%"class="title">Our Site is Currently Under Construction!</h4>
                 <h5 style="color: white; margin-bottom: 4%" class="description">
                  We code, we design, we love what we do. We are a collective group of creatives that come together and create lasting brands, lasting relationships and above all, happy clients.
@@ -31,9 +31,9 @@
             />
             <p style="margin-top: 5%; color: #74FED0; text-align: center;" class="category justify-content-md-center">Randy Renninger</p>
             <p style="margin-top: -5%; color: #74FED0; text-align: center;">Graphic Designer</p>
-             <RandyModal style="text-align: center; margin-top: -2%;"></RandyModal>
+             <RandyModal class="marginMobile" style="text-align: center; margin-top: -2%;"></RandyModal>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4"> 
             <img
               v-lazy="'img/steve.png'"
               alt="Steve Img"
@@ -42,7 +42,7 @@
             />
             <p style="margin-top: 5%; color: #74FED0; text-align: center;" class="category">Steve Hubis</p>
             <p style="margin-top: -5%; color: #74FED0; text-align: center;">Sales and marketing</p>
-            <SteveModal style="text-align: center; margin-top: -2%;"></SteveModal>
+            <SteveModal class="marginMobile" style="text-align: center; margin-top: -2%;"></SteveModal>
           </div>
           <div class="col-sm-4">
             <img
@@ -53,7 +53,7 @@
             />
             <p style="margin-top: 5%; color: #74FED0; text-align: center;" class="category">Craig Burch</p>
             <p style="margin-top: -5%; color: #74FED0; text-align: center;">Web Developer</p>
-            <CraigModal style="text-align: center; margin-top: -2%;"></CraigModal>
+            <CraigModal class="marginMobile" style="text-align: center; margin-top: -2%;"></CraigModal>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@
          <img style="margin-top: -60%;"
               v-lazy="'img/pattern2.png'"
               alt="pattern"
-              class="hideMobile"
+              class="hideMobile marginslogo"
             />
      </div>
    </div>
