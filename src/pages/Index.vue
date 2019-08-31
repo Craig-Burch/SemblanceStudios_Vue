@@ -1,26 +1,15 @@
 <template>
   <div class ="fullScreen">
-      <!-- filter-color="orange" -->
-      <!-- nice fade gradient to set up in above div if needed -->
-      
       <div class="container">
-        <div class="content-center">
-           <div class="row justify-content-md-center">
-              <img style="margin-top: 2%" class="s-logo" src="img/mainLogo2.png" alt="logo" />  
-           </div>
-          <div class="container text-center">
-            <div class="row justify-content-md-center">
-              <div class="col-md-12 col-lg-8 marginMobile">
-                <h4 style="color: #74FED0; margin-top: 2%"class="title">Our Site is Currently Under Construction!</h4>
+            <div class="row d-flex justify-content-center text-center">
+                <img class="s-logo" src="img/mainLogo2.png" alt="logo" />  
+              <div class=" col-lg-8 marginMobile">
+                <h4 style="color: #74FED0; font-weight: 700;">Our Site is Currently Under Construction!</h4>
                 <h5 style="color: white; margin-bottom: 4%" class="description">
                  We code, we design, we love what we do. We are a collective group of creatives that come together and create lasting brands, lasting relationships and above all, happy clients.
                 </h5>
               </div>
-            </div>
-          </div>
-          <!-- <h1 class="h1-seo">Now UI Kit.</h1>
-          <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3> -->
-      <div id="images">
+          </div> 
         <div class="row">
           <div class="col-sm-4">
             <img
@@ -56,8 +45,6 @@
             <CraigModal class="marginMobile" style="text-align: center; margin-top: -2%;"></CraigModal>
           </div>
         </div>
-      </div>
-     </div>
      <div>
          <img style="margin-top: -60%;"
               v-lazy="'img/pattern2.png'"

@@ -20,6 +20,7 @@
 .fullScreen {
   min-height: 969px !important;
   background-color: #0B0B47;
+
 }
 .companyGradient {
   text-align: center;
@@ -46,6 +47,7 @@
 }
 @media only screen and (max-width: 600px) {
 .marginMobile {
+   margin-top: -10px;
    margin-bottom: 15px !important;
   }
 }
@@ -498,37 +500,29 @@
 .tutorial-page .title {
   color: #FFFFFF;
 }
-
+/*@media only screen and (max-width: 480px) {*/
+/*}*/
 .brand .h1-seo {
   font-size: 2.8em;
   text-transform: uppercase;
   font-weight: 300;
 }
 /*header logo for landing spot*/
-.brand .s-logo {
-  max-width: 500px;
-  margin-bottom: 25px;
-  /*remove once you add nav-bar*/
-  margin-top: 100px
-}
-@media only screen and (max-width: 600px) {
+.s-logo {
+   margin-top: 7%;
+   width: 400px;
+ }
+@media only screen and (max-width: 780px) {
  .s-logo {
-   max-width: 400px !important;
-   margin-left: auto;
-   margin-right: auto;
+   /*width: 80% !important;*/
+   margin-top: 5%;
+   display: block;
+   max-width:230px;
+   max-height:95px;
+   width: auto;
+   height: auto;
   }
 }
-@media only screen and (max-width: 400px) {
- .s-logo {
-   max-width: 325px !important;
-  }
-}
-@media only screen and (max-width: 325px) {
- .s-logo {
-   max-width: 300px !important;
-  }
-}
-
 .invisios-logo {
   max-width: 70px;
   top: -2px;

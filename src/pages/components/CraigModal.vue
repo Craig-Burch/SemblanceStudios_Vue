@@ -10,14 +10,23 @@
     <!-- Craig Modal -->
     <modal :show.sync="modals.craig" headerClasses="justify-content-center" style="color:black">
       <h4 slot="header" class="title title-up companyColorDark">Contact Craig</h4>
-      <div class="row col-md-12 justify-content-md-center">
-          <a class="col-md-3"  href="tel:928-446-9757">
-          <i class="companyColorDark fas fa-mobile-alt fa-4x mb-3 col-sm-3"></i>
-          </a>
-          <a class="col-md-3" href="mailto: semblance.craig@gmail.com">
-          <i class="companyColorDark far fa-envelope-open fa-4x col-sm-3"></i>
-          </a>
-        </div>
+       <div class="row">
+          <div class="col-4">
+            <a class="col-md-3" href="tel:928-446-9757">
+            <i class="companyColorDark fas fa-mobile-alt fa-4x mb-4"></i>
+            </a>
+          </div>
+          <div class="col-4">
+             <a target="_blank" href="http://ilovecode.tech/">
+               <i class="companyColorDark fas fa-globe fa-4x mb-4"></i>
+             </a>
+          </div>
+          <div class="col-4">
+            <a href="mailto: semblance.craig@gmail.com">
+              <i class="companyColorDark far fa-envelope-open fa-4x mb-4"></i>
+            </a>
+          </div>
+       </div>
       <template slot="footer">
         <n-button class="buttonClose" @click.native="modals.craig = false"
           >Close</n-button
