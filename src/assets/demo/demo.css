@@ -2,6 +2,12 @@
   max-height: 2000px !important;
   height: 1500px !important;
 }*/
+
+/*navbar*/
+.navbar.navbar-transparent  {
+  background-color: #0B0B47 !important;
+}
+
 /*edit all contact modals*/
 .roundedModal {
   border-radius: 20px;
@@ -40,6 +46,74 @@
 .gradientBtn {
   background-image: linear-gradient(to right, #74FED0 0%, #8fd3f4 51%, #84fab0 100%);
 }
+
+/*portfolio page*/
+
+.btn-vivi {
+  background-color:#FF0103;
+}
+.vivi-colors {
+  color: #FF0103;
+}
+a.vivi-colors:hover {
+  color:#FF0103 !important;
+}
+.dhColors {
+  color:#008B9A !important;
+}
+.dh-btn {
+  background-color:#008B9A !important;
+}
+/*renninger colors*/
+.btn-info {
+  background-color:#262A69 !important;
+}
+.ren-colors {
+  color:#262A69 !important
+}
+.bighorn-btn {
+  background-color: black !important;
+}
+.bighorn-colors {
+  color: black !important;
+}
+/*project images*/ 
+.centerImage {
+  height: 100%;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  vertical-align: middle;
+  padding: 120px 80px 120px 80px;
+}
+.z-depth-2 {
+  height:350px;
+}
+.centerImagesmall {
+  height: 100%;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  vertical-align: middle;
+  padding: 60px 40px 60px 40px;
+}
+/*hr sepearators*/
+.lines {
+  height: 1px;
+   /* Set the hr color */
+   color: rgba(0,0,0,.2); /* old IE */
+   background-color: rgba(0,0,0,.2); /* Modern Browsers */
+   margin:10%;
+   width:100%;
+   margin-left: 0%;
+
+}
+/*wrapper for list of projects*/
+/*.my-5 {
+  width: 80%;
+  margin-left:10%;
+  margin-top: 100px !important;
+}*/
 @media only screen and (max-width: 990px) {
 .hideMobile {
    display: none;
@@ -51,6 +125,153 @@
    margin-bottom: 15px !important;
   }
 }
+
+/*work page logos and cards--------------------------------------------------*/
+@media only screen and (max-width:1200px){
+  .centerImage {
+    padding: 100px 30px 100px 30px;
+  }
+}
+@media only screen and (max-width:1080px){
+  .centerImage {
+    padding: 130px 30px 130px 30px;
+  }
+}
+@media only screen and (max-width:480px){
+  .centerImage {
+    padding: 90px 35px 90px 35px;
+  }
+}
+@media only screen and (max-width:375px){
+  .centerImage {
+    padding: 85px 30px 85px 30px;
+  }
+}
+@media only screen and (max-width:350px){
+  .centerImage {
+    padding: 65px 20px 65px 20px;
+  }
+}
+@media only screen and (max-width:1200px){
+  .centerImagesmall {
+    padding: 70px 40px 70px 40px;
+  }
+}
+@media only screen and (max-width:1080px){
+  .centerImagesmall {
+    padding: 80px 40px 80px 40px;
+  }
+}
+@media only screen and (max-width:480px){
+  .centerImagesmall {
+    padding: 40px 35px 40px 35px;
+  }
+}
+@media only screen and (max-width:425px){
+  .centerImagesmall {
+    padding: 50px 35px 50px 35px;
+  }
+}
+@media only screen and (max-width:375px){
+  .centerImagesmall {
+    padding: 50px 25px 50px 25px;
+  }
+}
+@media only screen and (max-width:350px){
+  .centerImagesmall {
+    padding: 35px 25px 35px 25px;
+  }
+}
+@media only screen and (max-width:325px){
+  .centerImagesmall {
+    padding: 35px 20px 35px 20px;
+  }
+}
+/*error in centeimagesmall areas with margin bottom fix*/
+@media only screen and (max-width:480px){
+  .mobile-margin-fix {
+     margin-bottom: 3% !important;
+  }
+}
+@media only screen and (max-width:350px){
+  .mobile-margin-fix {
+     margin-bottom: 5% !important;
+  }
+}
+/*cards logos*/
+@media only screen and (max-width:480px){
+ .z-depth-2 {
+    height: 250px;
+    width: 100% !important;
+ }
+}
+@media only screen and (max-width:375px){
+ .z-depth-2 {
+    /*height: 250px;*/
+    width: 100% !important;
+ }
+}
+@media only screen and (max-width:350px){
+ .z-depth-2 {
+    height: 200px;
+    width: 100% !important;
+ }
+}
+
+/*arrow down button*/
+@media only screen and (min-width:1000px){
+.tablet-mobile-hidden {
+   display: none !important;
+ }
+}
+@media only screen and (max-width:1000px){
+  .wrapper-mobile-photos {
+    display:contents;
+  }
+}
+@media only screen and (max-width:1000px){
+   .mobile-photos {
+      display: block;
+      margin-bottom: 2%;
+   }
+}
+@media only screen and (max-width:1000px){
+   .mobile-photos img {
+      margin:auto;
+   }
+}
+@media only screen and (max-width:1000px){
+  .desktop-photos  {
+     display: none;
+  }
+} 
+@media only screen and (max-width:1000px){
+  .hide-mobile-text {
+   
+  }
+}
+@media only screen and (max-width:1000px){
+  hr {
+   margin:25px;
+  }
+}
+@media only screen and (max-width:991px){
+  .mobile-hide {
+  display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*end costom css ---------------------------*/
 .tim-row {
   margin-bottom: 20px;
 }

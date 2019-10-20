@@ -1,5 +1,5 @@
 <template>
-  <!-- <footer
+  <footer
     class="footer"
     :class="{ [`footer-${type}`]: type }"
     :data-background-color="backgroundColor"
@@ -38,7 +38,7 @@
         >.
       </div>
     </div>
-  </footer> -->
+  </footer>
 </template>
 <script>
 export default {

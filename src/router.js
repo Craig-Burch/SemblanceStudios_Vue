@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
 import Landing from './pages/Landing.vue';
+import Portfolio from './pages/Portfolio.vue';
 import Login from './pages/Login.vue';
 import Profile from './pages/Profile.vue';
 import MainNavbar from './layout/MainNavbar.vue';
@@ -26,6 +27,15 @@ export default new Router({
       path: '/landing',
       name: 'landing',
       components: { default: Landing, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/portfolio',
+      name: 'landing',
+      components: { default: Portfolio, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }

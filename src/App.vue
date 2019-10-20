@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="fullScreen">
     <router-view name="header" />
     <div class="wrapper">
       <router-view />

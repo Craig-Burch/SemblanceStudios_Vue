@@ -1,5 +1,5 @@
 <template>
-  <!-- <navbar
+  <navbar
     position="fixed"
     type="primary"
     :transparent="transparent"
@@ -35,27 +35,37 @@
       </li>
       <drop-down
         tag="li"
-        title="Components"
+        title="Portfolio"
         icon="now-ui-icons design_app"
         class="nav-item"
       >
         <nav-link to="/">
-          <i class="now-ui-icons business_chart-pie-36"></i> All components
+          <i class="now-ui-icons business_chart-pie-36"></i> All
         </nav-link>
         <a
           href="https://demos.creative-tim.com/vue-now-ui-kit/documentation"
           target="_blank"
           class="dropdown-item"
         >
-          <i class="now-ui-icons design_bullet-list-67"></i> Documentation
+          <i class="now-ui-icons design_bullet-list-67"></i> Web 
+        </a>
+        <a
+          href="https://demos.creative-tim.com/vue-now-ui-kit/documentation"
+          target="_blank"
+          class="dropdown-item"
+        >
+          <i class="now-ui-icons design_bullet-list-67"></i> Graphic 
         </a>
       </drop-down>
       <drop-down
               tag="li"
-              title="Examples"
+              title="Explore"
               icon="now-ui-icons design_image"
               class="nav-item"
       >
+        <nav-link to="/portfolio">
+          <i class="now-ui-icons education_paper"></i> Portfolio
+        </nav-link>
         <nav-link to="/landing">
           <i class="now-ui-icons education_paper"></i> Landing
         </nav-link>
@@ -117,7 +127,7 @@
         </a>
       </li>
     </template>
-  </navbar> -->
+  </navbar>
 </template> 
 
 <script>
