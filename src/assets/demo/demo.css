@@ -1,3 +1,16 @@
+/*STYLE GUIDE
+
+1.0 home page hero
+2.0 gradient BG and what we do section
+3.0 contact modals
+
+
+
+*/
+
+/*html, body {
+    height: 100%;
+}*/
 /*.page-header {
   max-height: 2000px !important;
   height: 1500px !important;
@@ -7,7 +20,44 @@
 .navbar.navbar-transparent  {
   background-color: #0B0B47 !important;
 }
+/*1.0 home page hero*/
+.heroBackgroundImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1080px;
+  width: 1920px !important;
+  vertical-align: middle; 
+  display: table-cell;
+  background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
 
+
+/*scroll down*/
+.centerScroll {
+  
+}
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  text-align: center;
+  border-top: 40px solid #84fab0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute; 
+  bottom: 20px;
+  left: 49%;
+}
+
+/*2.0 gradient BG and what we do section*/
+.whatWeDoContainer {
+  background-image: linear-gradient(to right, #74FED0 0%, #8fd3f4 51%, #84fab0 100%);
+  width: 100%;
+}
+
+/*3.0 contact modals*/
 /*edit all contact modals*/
 .roundedModal {
   border-radius: 20px;

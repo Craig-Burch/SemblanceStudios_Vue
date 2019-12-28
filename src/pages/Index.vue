@@ -1,5 +1,54 @@
 <template>
   <div class ="fullScreen">
+    <div class= "heroBackgroundImage" style="">
+      <div style=" " class="row">
+        
+          <div class="col-lg-12 text-center ">
+           <img
+              v-lazy="'img/favicon.png'"
+              alt="Hero Logo"
+              class="mg-raised"
+            />
+          </div>
+         
+        </div>
+        <!-- scroll -->
+        <div class="centerScroll">
+        <a href="#" v-scroll-to="'#scrollDown'" >
+           <div class="arrow-down">
+             
+           </div>
+         </a>
+       </div>
+ 
+    </div>
+
+    
+    <div class="whatWeDoContainer" id="scrollDown">
+      <div class="row d-flex justify-content-center text-left">
+        <div class=" col-lg-6">
+          <img class="s-logo" src="https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="logo" width="500" height="500" />
+        </div>
+        <div class=" col-lg-6">
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </h5>
+        </div>
+      </div>
+
+      <div class="row d-flex justify-content-center text-left">
+        <div class=" col-lg-6">
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </h5>
+        </div>
+         <div class=" col-lg-6">
+          <img class="s-logo" src="https://images.pexels.com/photos/820673/pexels-photo-820673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="logo" width="500" height="500"/>
+        </div>
+      </div>
+    </div>
+
+
       <div class="container">
             <div class="row d-flex justify-content-center text-center">
                 <img class="s-logo" src="img/mainLogo2.png" alt="logo" />  
@@ -22,17 +71,6 @@
             <p style="margin-top: -5%; color: #74FED0; text-align: center;">Graphic Designer</p>
              <RandyModal class="marginMobile" style="text-align: center; margin-top: -2%;"></RandyModal>
           </div>
-          <div class="col-sm-4"> 
-            <img
-              v-lazy="'img/steve.png'"
-              alt="Steve Img"
-              class="rounded img-raised"
-              style="border-radius: 30px !important;"
-            />
-            <p style="margin-top: 5%; color: #74FED0; text-align: center;" class="category">Steve Hubis</p>
-            <p style="margin-top: -5%; color: #74FED0; text-align: center;">Sales and marketing</p>
-            <SteveModal class="marginMobile" style="text-align: center; margin-top: -2%;"></SteveModal>
-          </div>
           <div class="col-sm-4">
             <img
               v-lazy="'img/craig.png'"
@@ -44,14 +82,26 @@
             <p style="margin-top: -5%; color: #74FED0; text-align: center;">Web Developer</p>
             <CraigModal class="marginMobile" style="text-align: center; margin-top: -2%;"></CraigModal>
           </div>
+          <div class="col-sm-4"> 
+            <img
+              v-lazy="'img/steve.png'"
+              alt="Steve Img"
+              class="rounded img-raised"
+              style="border-radius: 30px !important;"
+            />
+            <p style="margin-top: 5%; color: #74FED0; text-align: center;" class="category">Steve Hubis</p>
+            <p style="margin-top: -5%; color: #74FED0; text-align: center;">Sales and marketing</p>
+            <SteveModal class="marginMobile" style="text-align: center; margin-top: -2%;"></SteveModal>
+          </div>
         </div>
-     <div>
+
+     <!-- <div>
          <img style="margin-top: -60%;"
               v-lazy="'img/pattern2.png'"
               alt="pattern"
               class="hideMobile marginslogo"
             />
-     </div>
+     </div> -->
    </div>
     <!-- <div class="main">
       <div class="section section-images">
